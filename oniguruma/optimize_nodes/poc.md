@@ -1,17 +1,17 @@
 ## Desctiption
-When I used the  function to handle a specific input, Program received signal SIGILL, Illegal instruction. in optimize_nodes at /oniguruma/src/regcomp.c:6635
+When I used the optimize_nodes function to handle a specific input, Program received signal SIGILL, Illegal instruction. in optimize_nodes at /oniguruma/src/regcomp.c:6635
 
 https://github.com/kkos/oniguruma/blob/c197d53ec6a25d7b068809130f046c006650d1a5/src/regcomp.c#L6622-L6635
 
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 oniguruma(v6.9.10 master https://github.com/kkos/oniguruma/commit/05bb130c9ad54877e73d1caf08dd95e6ff199d99)
-[program source file]()
+[program source file](https://github.com/ambrosecm/pocs/blob/main/oniguruma/optimize_nodes/copy_opt_map.c)
 
 ## How to trigger
-Download the [poc file]() , [program]() and run the following cmd:
+Download the [poc file](https://github.com/ambrosecm/pocs/blob/main/oniguruma/optimize_nodes/poc) , [program](https://github.com/ambrosecm/pocs/blob/main/oniguruma/optimize_nodes/copy_opt_map) and run the following cmd:
 ```
- $ ./ ./poc
+ $ ./copy_opt_map ./poc
 ```
 
 ## Detail
