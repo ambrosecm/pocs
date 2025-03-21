@@ -1,16 +1,17 @@
 ## Desctiption
 When using the onig_region_resize function to handle a specific input, Program received signal SIGSEGV, Segmentation fault. in onig_region_resize at /oniguruma/src/regexec.c:920
 
+https://github.com/kkos/oniguruma/blob/c197d53ec6a25d7b068809130f046c006650d1a5/src/regexec.c#L917-L920
 
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 oniguruma(v6.9.10 master https://github.com/kkos/oniguruma/commit/05bb130c9ad54877e73d1caf08dd95e6ff199d99)
-[program source file]()
+[program source file](https://github.com/ambrosecm/pocs/blob/main/oniguruma/onig_region_resize/onig_region_resize_clear.c)
 
 ## How to trigger
-Download the [poc file]() , [program]() and run the following cmd:
+Download the [poc file](https://github.com/ambrosecm/pocs/blob/main/oniguruma/onig_region_resize/poc) , [program](https://github.com/ambrosecm/pocs/blob/main/oniguruma/onig_region_resize/onig_region_resize_clear) and run the following cmd:
 ```
- $ ./ ./poc
+ $ ./onig_region_resize_clear ./poc
 ```
 
 ## Detail
