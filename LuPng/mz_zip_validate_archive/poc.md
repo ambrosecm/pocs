@@ -6,12 +6,12 @@ https://github.com/jansol/LuPng/blob/5ec546e0d16d0fb9316967949b2676227eb93736/mi
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 LuPng(commits on Aug 28, 2021 master https://github.com/jansol/LuPng/commit/5ec546e0d16d0fb9316967949b2676227eb93736)
-[program source file]()
+[program source file](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_validate_archive/mz_zip_validate_archive.c)
 
 ## How to trigger
-Download the [poc file]() , [program]() and run the following cmd:
+Download the [poc file](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_validate_archive/poc) , [program](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_validate_archive/mz_zip_validate_archive) and run the following cmd:
 ```
- $ ./ ./poc
+ $ ./mz_zip_validate_archive ./poc
 ```
 
 ## Detail
