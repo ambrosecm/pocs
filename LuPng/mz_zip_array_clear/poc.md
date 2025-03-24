@@ -5,12 +5,12 @@ https://github.com/jansol/LuPng/blob/5ec546e0d16d0fb9316967949b2676227eb93736/mi
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 LuPng(commits on Aug 28, 2021 master https://github.com/jansol/LuPng/commit/5ec546e0d16d0fb9316967949b2676227eb93736)
-[program source file]()
+[program source file](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_array_clear/mz_zip_writer_end.c)
 
 ## How to trigger
-Download the [poc file]() , [program]() and run the following cmd:
+Download the [poc file](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_array_clear/poc) , [program](https://github.com/ambrosecm/pocs/blob/main/LuPng/mz_zip_array_clear/mz_zip_writer_end) and run the following cmd:
 ```
- $ ./ ./poc
+ $ ./mz_zip_writer_end ./poc
 ```
 
 ## Detail
