@@ -3,6 +3,8 @@ When using the tdefl_record_literal function to handle a specific input. Program
 
 https://github.com/jansol/LuPng/blob/5ec546e0d16d0fb9316967949b2676227eb93736/miniz.h#L3030-L3033
 
+The primary cause is that the parameter in tdefl_record_literal points to an inaccessible address, leading to a segmentation fault.
+
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 LuPng(commits on Aug 28, 2021 master https://github.com/jansol/LuPng/commit/5ec546e0d16d0fb9316967949b2676227eb93736)
