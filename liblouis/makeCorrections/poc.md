@@ -11,12 +11,12 @@ The primary cause is that the parameter in makeCorrections is corrupted and not 
 ## Test Environment
 Ubuntu 22.04.1, 64bit
 Liblouis (v3.33.0 master https://github.com/liblouis/liblouis/commit/2682d54c79333f9d7c06a8080ac5acb17a62d6fa)
-[program source code file]()
+[program source code file](https://github.com/ambrosecm/pocs/blob/main/liblouis/makeCorrections/makeCorrections.c)
 
 ## How to trigger
-Download the [poc file]() , [program]() and run the following cmd:
+Download the [poc file](https://github.com/ambrosecm/pocs/blob/main/liblouis/makeCorrections/poc) , [program](https://github.com/ambrosecm/pocs/blob/main/liblouis/makeCorrections/makeCorrections) and run the following cmd:
 ```
- $ ./ ./poc
+ $ ./makeCorrections ./poc
 ```
 
 ## Detail
